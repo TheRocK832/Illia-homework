@@ -1,0 +1,72 @@
+.header {
+    margin: 30px 120px 12px 120px;
+    text-align: center;
+}
+.logo {
+    display: inline-block;
+    margin: 1px 229px 0px 0px;
+    vertical-align: top;
+}
+.nav {
+    display: inline-block;
+}
+.item-home {
+    display: inline-block; 
+    margin-right: 50px;
+    vertical-align: middle;
+}
+.item-shop {
+    display: inline-block; 
+    margin-right: 50px;
+    vertical-align: middle;
+   
+}
+.item-plant {
+    display: inline-block; 
+    margin-right: 50px;
+    vertical-align: middle;
+}
+.item-blogs {
+    display: inline-block;
+    vertical-align: middle;
+}
+.login {
+    display: inline-block;
+    border-radius: 6px;
+    background-color: #46A358;
+    margin-left: 370px;
+    padding: 8px 17px 7px 17px;
+}
+.link {
+    color: #3D3D3D;
+}
+.login-link {
+    font-size: 16px;
+}
+.login-icon {
+   padding-right: 4px; 
+}
+.item-home:hover {
+    border-bottom: 3px solid #46A358;
+    font-weight: bold;
+    padding-bottom: 19px;
+}   
+.item-shop:hover {
+    border-bottom: 3px solid #46A358;
+    font-weight: bold;
+    padding-bottom: 19px;
+}
+
+.item-plant:hover {
+    border-bottom: 3px solid #46A358;
+    font-weight: bold;
+    padding-bottom: 19px;
+}
+.item-blogs:hover {
+    border-bottom: 3px solid #46A358;
+    font-weight: bold;
+    padding-bottom: 19px;
+}
+
+
+
