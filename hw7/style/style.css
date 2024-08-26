@@ -1,0 +1,150 @@
+.catalog {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Cera Pro Regular" ;
+    margin-top: 171px;
+}
+/* ASIDE list */
+.aside {
+    float: left;
+    background-color: #FBFBFB;
+}
+.categories {
+    padding: 14px 199px 24px 18px;
+}
+.name-list {
+    color: #3D3D3D;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.categories-list {
+    padding: 0px 0px 377px 30px;
+}
+.item {
+padding-bottom: 20px;
+color: #3D3D3D;
+font-size: 15px;
+line-height: 20px;
+}
+.link-item {
+    color: #3D3D3D;
+}
+li:last-child {
+    padding: 0px;
+}
+/* ASIDE list */
+
+
+/* BLOCK-Nav-card */
+.card-group {
+   float: right; 
+   width: 840px;
+   
+}
+.block-nav {
+    float: left; 
+}
+.sorting {
+    float: right;
+}
+.clearfix {
+    clear: both;
+}
+.item-nav-card {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 15px;
+    padding-bottom: 7px;
+}
+.card-block {
+    float: left;
+}
+.card {
+    display: inline-block;
+    margin-bottom: 70px;
+    margin-right: 29px;
+}
+.card:nth-child(3n) {
+      margin-right: 0;  
+}
+.card:nth-last-child(-n+3) {
+    margin-bottom: 90px;  
+}
+.block-nav {
+    margin-bottom: 31px;
+}
+.nav-text {
+    color: #3D3D3D;
+}
+.sorting-text {
+    color: #3D3D3D; 
+    font-size: 15px;
+}
+.sorting-list {
+    color: #3D3D3D; 
+    font-family: "Cera Pro Regular" ;
+    font-size: 15px;
+}
+.card-img {
+    width: 258px;
+    height: 300px;
+}
+.card-text {
+    display: block;
+    font-size: 16px;
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular" ;
+}
+.price {
+    font-size: 18px;
+    color: #46A358;
+    font-family: "Cera Pro Regular" ;
+    font-weight: 700;   
+}
+.card-img {
+    margin-bottom: 12px;
+}
+.card-text {
+    margin-bottom: 6px;
+}
+.pagination {
+    margin-bottom: 82px;
+}
+.pagination-item {
+   display: block;
+   float: right;
+   width: 35px;
+   height: 35px;
+   border: 1px solid #E5E5E5;
+   margin-right: 10px;
+   border-radius: 4px;
+   font-family: "Cera Pro Regular" ;
+   text-align: center;
+   padding: 9px 0px;
+   margin-bottom: 30px;
+}   
+.pagination-link {
+    font-size: 18px;
+    color: #3D3D3D;  
+}
+.pagination-item:first-child {
+    margin: 0px;
+}
+.pagination-link:hover {
+    color: white;
+    
+}
+.pagination-item:hover {
+    background-color: #46A358;;
+}
+.link-item:hover {
+    color: #46A358;
+    font-weight: 700;
+    
+}
+.link-nav-card:hover {
+    color: #46A358;
+    font-weight: 700;
+    border-bottom: 2px solid #46A358;;
+}
