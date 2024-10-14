@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+.registration {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.registration-banner {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.registration-name {
+    padding: 0 7%;
+}
+.registration-name__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.registration-name__logo {
+    position: absolute;
+    left: 50%;
+    top: 32px;
+    transform: translate(-50%);
+}
+.registration-name-form {
+    display: flex;
+    flex-direction: column ;
+    width: 456px;
+    gap: 32px;
+    position: relative;
+}
+.registration-name__title {
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.4000000059604645px;
+    color: #121212;
+    margin-bottom: 24px;
+}
+.registration-name-text {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 32px;
+}
+.registration-name-text__already {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #6C7275;
+}
+.registration-name-text__link {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #38CB89;
+}
+.registration-name-form__input {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #6C7275;
+    height: 40px;
+    border-bottom: 1px solid #E8ECEF;
+}
+.registration-name-form__eye {
+    position: absolute;
+    bottom: 4px;
+    right: 0px;
+}
+.registration-name-form__input:focus {
+    outline: none;
+}
+.registration-name-form-checkbox {
+    display: flex;
+    gap: 12px;
+    margin: 32px 0;
+    position: relative;
+}
+.checkbox-name {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #605F5F;
+    margin-left: 10px;
+}
+
+.label__bold {
+    font-weight: 600;
+    color: #141718;
+}
+.registration-name-form-checkbox__check {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    opacity: 80%;
+}
+  .round label {
+    background-color: #FCFCFD;
+    border: 1.5px solid #6C7275;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 24px;
+  }
+  .round label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 5px;
+    opacity: 0;
+    position: absolute;
+    top: 6px;
+    transform: rotate(-45deg);
+    width: 12px;
+  }
+  .round input[type="checkbox"] {
+    visibility: hidden;
+  }
+  .round input[type="checkbox"]:checked + label {
+    background-color: #141718;
+    border-color: #141718;
+  }
+  .round input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+  }
+  .registration-name-form-btn {
+    cursor: pointer;
+    background-color: #141718;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.4000000059604645px;
+    color: #fff;
+    padding: 10px 199px;
+    border-radius: 8px;
+  }
+  @media screen and (max-width:1000px) {
+    .registration-name-form {
+        width: 300px;
+    }
+    .checkbox-name {
+        font-size: 12px;
+    }
+    .registration-name-form-btn {
+       width: 300px;
+       padding: 10px 0px;
+    }
+  }
+  @media screen and (max-width:800px) {
+    .registration {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .registration-banner {
+        width: 100%;
+    }
+    .registration-name-form-btn {
+        margin-bottom: 40px;
+    }
+  }
+  
+  @media screen and (max-width:360px) {
+    .registration-name-form {
+        width: 270px;
+    }
+    .checkbox-name {
+        font-size: 12px;
+    }
+    .registration-name-form-btn {
+       width: 270px;
+       padding: 10px 0px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
