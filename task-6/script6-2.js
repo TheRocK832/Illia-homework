@@ -14,6 +14,6 @@ function foo(array) {
     return total / count; 
 }
 
-const result = foo(array);
+const results = foo(array);
 
-alert(result);
+alert(results);
