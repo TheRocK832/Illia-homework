@@ -1,9 +1,14 @@
-function sum(number) {
-    total = total + number;
-    return total;
+ function sum(number) {
+    let total = number || 0; 
+
+    return function (num) {
+        total += num; 
+        return total;    
+    };
 }
-let total = 0; 
-console.log(sum(4));  
-console.log(sum(6));  
-console.log(sum(10)); 
-console.log(sum(7));  
+
+const add = sum(0); 
+console.log(add(4));  
+console.log(add(6));  
+console.log(add(10)); 
+console.log(add(7));  
