@@ -1,0 +1,10 @@
+.button-block {
+    display: flex;
+    gap: 100px;
+}
+.button {
+    padding: 10px 20px;
+    background-color: gray;
+    border-radius: 10px;
+    color: #fff;
+}
